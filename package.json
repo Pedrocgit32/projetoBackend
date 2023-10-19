@@ -4,7 +4,7 @@
   "description": "Definir um local do computador para criar a pasta do projeto \r ```\r mkdir NOME_PROJETO\r ```\r Acessar a pasta do projeto\r ```\r cd NOME_PROJETO\r ```\r Abrir pasta no VSCode\r ```\r code .\r ```\r Iniciar gerenciador de pacotes node\r ```\r npm init -y\r ```\r Criar o arquivo .gitignore\r ```\r touch .gitignore\r ```\r Criar o arquivo .env\r ```\r touch .env\r ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"nodemon src/server.js"  
   },
   "keywords": [],
   "author": "",
